@@ -1,0 +1,31 @@
+{
+  "name": "scmutils",
+  "version": "1.0.0",
+  "description": "Utils collection",
+  "bin": "./index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarletmu/scmutils.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "scarletmu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scarletmu/scmutils/issues"
+  },
+  "homepage": "https://github.com/scarletmu/scmutils#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.9"
+  },
+  "dependencies": {
+    "commander": "^4.0.1",
+    "execa": "^3.3.0",
+    "inquirer": "^7.0.0"
+  }
+}
